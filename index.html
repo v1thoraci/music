@@ -1,78 +1,40 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Muquitas</title>
-</head>
+body {
+    /* Voltando com a cor de fundo original do projeto */
+    background-color: rgb(255, 233, 111);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    /* Mantendo tudo centralizado */
+    text-align: center;
+}
 
-<body>
-    <h1>Músicas_dredre 🎵</h1>
+h1 {
+    color: black;
+    font-size: 60px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
-    <h2>Internacional!</h2>
+h2 {
+    /* Categorias com caixas escuras para destacar no fundo amarelo */
+    color: white;
+    background-color: rgb(20, 20, 20);
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-size: 22px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
 
-    <iframe width="1305" height="734" src="https://www.youtube.com/embed/nT8O_mP2x6Y"
-        title="Chase Atlantic - FRIENDS (Official Lyric Video)" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+iframe {
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
 
-    <iframe width="1305" height="734" src="https://www.youtube.com/embed/x47TgeRJtH0"
-        title="The Neighbourhood - Reflections (Official Audio)" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe width="1305" height="734" src="https://www.youtube.com/embed/mh4AQkw4Jjc"
-        title="Temper City - Self Aware (Official Video)" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe width="1305" height="734" src="https://www.youtube.com/embed/bpOSxM0rNPM"
-        title="Arctic Monkeys - Do I Wanna Know? (Official Video)" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe width="1305" height="734" src="https://www.youtube.com/embed/nHaNDhb4YaQ"
-        title="twenty one pilots - Doubt / Lyrics" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <h2>Rock!</h2>
-
-    <iframe width="1305" height="734" src="https://www.youtube.com/embed/icXUkIfZxyg"
-        title="Pierce The Veil - King for a Day ft. Kellin Quinn" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe width="1305" height="734" src="https://www.youtube.com/embed/Rbm6GXllBiw"
-        title="Guns N&#39; Roses - Paradise City (Official Music Video)" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe width="1305" height="734" src="https://www.youtube.com/embed/nmZBkJI7g_k"
-        title="Pierce The Veil - So Far So Fake (Visualizer)" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <h2>Funk!</h2>
-
-    <iframe width="1305" height="734" src="https://www.youtube.com/embed/lac3TYlarFM"
-        title="MC PEPEU - GOSTOSINHO TU CAI | DJ SWAT (CLIPE OFICIAL) Doug Filmes" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe width="1305" height="734" src="https://www.youtube.com/embed/1vXn6pl40bo"
-        title="SET DO G15 &#39;&#39;Revoada Começou&#39;&#39; Davi, Pedrinho, Don Juan, Jottapê, Gaab, Ryan SP e Menor Da VG (GR6)"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe width="1305" height="734" src="https://www.youtube.com/embed/rt5WvDyNAjQ"
-        title="TATUAGEM DA ARANHA - SEM ALIANÇA NO DEDO - MC Xenon (Love Funk) Os Gêmeos da Put4aria" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-</body>
-
-</html>
+iframe:hover {
+    transform: scale(1.03);
+}
