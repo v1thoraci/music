@@ -19,7 +19,7 @@ h1 {
 
 /* 2. Caixinhas de categoria com efeito interativo (Item 1) */
 h2 {
-    color: white;
+    color: rgb(255, 105, 180)
     background-color: rgb(20, 20, 20);
     display: inline-block;
     padding: 10px 25px;
